@@ -1,0 +1,13 @@
+{
+	"navigationFallback": {
+		"rewrite": "/index.html"
+	},
+	"networking": {
+		"allowedIpRanges": ["AzureFrontDoor.Backend"]
+	},
+	"responseOverrides": {
+		"404": {
+			"rewrite": "/auth.html"
+		}
+	}
+}
