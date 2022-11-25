@@ -34,9 +34,7 @@
 <p>Let&rsquo;s recap:</p>
 <p>We have created a new GitHub repository, then a SWA and deployed the content.</p>
 <p>&nbsp;</p>
-<p><strong>&nbsp;</strong></p>
 <p><strong>Section 2 &ndash; Creating the Azure Front Door.</strong></p>
-<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>Go back to the resource group, at this point we have only the SWA, so we are going to create the Azure Front Door.</p>
 <p>Click on Create, in the Market place look up for Front Door and CDN profiles:</p>
@@ -55,7 +53,7 @@
 <p>&nbsp;</p>
 <p><strong>Section 3 &ndash; Configuration of the Front Door.</strong></p>
 <p>&nbsp;</p>
-<p>Let configure the Front Door to be able to reach the Static Web App.</p>
+<p>Let&rsquo;s configure the Front Door to be able to reach the Static Web App.</p>
 <p>Go to <strong>Front Door manager</strong></p>
 <img src="https://github.com/cffy/ImageGlobalRepos/blob/main/MSAzure-SWA-FD/Picture10.png" alt="FME">
 <p>&nbsp;</p>
@@ -81,7 +79,6 @@
 <p>Now let configure the Static Web App to allow connection only from the Front Door by modifying the staticwebapp.config.json file:</p>
 <p>Go to the GitHub repository, open the staticwebapp.config.json file:</p>
 <p>Then click on &lsquo;Edit&rsquo; button</p>
-
 <img src="https://github.com/cffy/ImageGlobalRepos/blob/main/MSAzure-SWA-FD/Picture17.png" alt="FME">
 <p>&nbsp;</p>
 <p>Check the Actions tab of the repository:</p>
@@ -107,7 +104,6 @@
 <p>&nbsp;</p>
 <p>You will get this alert:</p>
 <img src="https://github.com/cffy/ImageGlobalRepos/blob/main/MSAzure-SWA-FD/Picture25.png" alt="FME">
-<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>The domain needs to be validated.</p>
 <p>&nbsp;</p>
