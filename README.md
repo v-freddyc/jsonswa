@@ -137,13 +137,13 @@
 <img src="https://github.com/cffy/ImageGlobalRepos/blob/main/MSAzure-SWA-FD/Picture33.png" alt="FME">
 <p>Now we can go to the Static Web App using the custom domain configured to the endpoint (make sure you are using HTTPS protocol on the URL):</p>
 <img src="https://github.com/cffy/ImageGlobalRepos/blob/main/MSAzure-SWA-FD/Picture34.png" alt="FME">
+<img src="https://github.com/cffy/ImageGlobalRepos/blob/main/MSAzure-SWA-FD/Picture35.png" alt="FME">
 <p>&nbsp;</p>
 
 <p><strong>Section 5 &ndash; Configuring the alert for 4XX responses.</strong></p>
 <p>&nbsp;</p>
 <p>In the left panel menu, under monitoring section go to Alerts, then click on Action groups, then create.</p>
-<img src="https://github.com/cffy/ImageGlobalRepos/blob/main/MSAzure-SWA-FD/Picture35.png" alt="FME">
-<p>&nbsp;</p>
+
 <p>&nbsp;</p>
 <p>Fill the information</p>
 <img src="https://github.com/cffy/ImageGlobalRepos/blob/main/MSAzure-SWA-FD/Picture36.png" alt="FME">
