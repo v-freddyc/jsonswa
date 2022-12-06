@@ -7,9 +7,7 @@
 		"rewrite": "/index.html"
 	},
 	"networking": {
-		"allowedIpRanges": ["AzureFrontDoor.Backend",
-			"AzureActiveDirectory.Backend"
-		]
+		"allowedIpRanges": ["AzureFrontDoor.Backend"]
 	},
 	"responseOverrides": {
 		"404": {
