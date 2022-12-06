@@ -1,15 +1,15 @@
 {
-	"routes": [
-    	{
-      		"route": "/*",
-      		"allowedRoles": ["authenticated"]
-    		}
-  	],
+	"routes": [{
+		"route": "/*",
+		"allowedRoles": ["authenticated"]
+	}],
 	"navigationFallback": {
 		"rewrite": "/index.html"
 	},
 	"networking": {
-		"allowedIpRanges": ["AzureFrontDoor.Backend"]
+		"allowedIpRanges": ["AzureFrontDoor.Backend",
+			"AzureActiveDirectory.Backend"
+		]
 	},
 	"responseOverrides": {
 		"404": {
